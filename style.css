@@ -170,6 +170,132 @@ header{
     color: #fff;
     text-align: justify;
 }
+/* third section code start here */
+#third-section{
+background-image: url('img/wall.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+padding: 100px 0;
+}
+.more-about-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #fff;
+    gap: 40px;
+}
+.about-div h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about-div p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about-div a{
+    background-color: yellow;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    color: black;
+}
+.about-parent-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.single-card-design{
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid limegreen;
+    box-shadow: 3px 3px 5px gray;
+}
+.single-card-design h4{
+    padding: 10px 0;
+   
+}
+/* forth section code start here */
+#fourth-section{
+    background-color: #212F3D;
+}
+.advice-parent{
+    display: flex;
+ padding: 100px 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    gap: 50px;
+    color: #fff;
+}
+.advice-img{
+    width: 400px;
+}
+.advice-img img{
+    width: 100%;
+    /* width: 400px; */
+    
+}
+/* icon color code use */
+.fa-facebook{
+    color:  #3b5998;
+    font-size: 20px;
+}
+.fa-twitter{
+    color: #00acee;
+    font-size: 20px;
+}
+.fa-whatsapp-square{
+    color: #25d366;
+    font-size: 20px;
+}
+
+.fa-square-github{
+    color: #171515;
+    font-size: 20px;
+}
+/* icon colod code end */
+.advice-single-card h3{
+    margin: 10px 0;
+}
+.advice-single-card h4{
+    font-size: 22px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+.advice-single-card p{
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+.advice-single-card a{
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: .5s;
+    color: black;
+}
+.advice-single-card a:hover{
+    background-color: wheat;
+}
+.advice-icon a{
+    margin: 5px 5px;
+    display: inline-block;
+}
+.learn{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+
+
 /* first section code responsive start here  */
 @media only screen and (max-width:688px){
     .service-parent{
@@ -188,6 +314,30 @@ header{
         width: 100%;
         margin-bottom: 30px;
     }
+    /* more about code */
+    .more-about-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .about-parent-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 25px;
+    }
+    /* fourth section code start here */
+    .advice-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .advice-single-card{
+        margin-bottom: 25px;
+    }
+    .advice-img{
+        width: 95%;
+    }
+    
 }
 
 @media only screen and (min-width:689px) and (max-width:1099px){
@@ -207,4 +357,28 @@ header{
         width: 100%;
         margin-bottom: 30px;
     }
+    /* more about code */
+    .more-about-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .about-parent-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 25px;
+    }
+    /* fourth section code start here */
+    .advice-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .advice-single-card{
+        margin-bottom: 25px;
+    }
+    .advice-img{
+        width: 95%;
+    }
+    
 }
