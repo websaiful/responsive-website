@@ -292,7 +292,60 @@ padding: 100px 0;
     margin-top: 15px;
     font-weight: bold;
 }
+/* fourt section code start here  */
+#fifth-section{
+background-image: url('img/contact.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 100px 0;
 
+}
+form{
+    background-color: #341f97;
+    max-width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 50px 60px;
+    border-radius: 10px;
+    border: 6px solid #5f27cd;
+}
+form h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+form p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.input-contact{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+   background: none;
+   outline-style: none;
+   border-style: none;
+   border-bottom: 3px solid #4d31ca ;
+   color: #fff;
+}
+.input-contact::placeholder{
+    font-weight: bold;
+    font-size: 16px;
+}
+#submit-btn{
+    display: block;
+    margin: 0px auto;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline-style: ridge;
+  outline-color: #00acee;
+  cursor: pointer;
+  
+}
 
 
 
@@ -337,6 +390,15 @@ padding: 100px 0;
     .advice-img{
         width: 95%;
     }
+    /* fifth section code start  */
+    form{
+        display: block;
+        max-width: 90%;
+        
+       
+        padding: 30px 30px;
+        
+    }
     
 }
 
@@ -379,6 +441,15 @@ padding: 100px 0;
     }
     .advice-img{
         width: 95%;
+    }
+    /* fifth section code start  */
+    form{
+        display: block;
+        max-width: 90%;
+        
+       
+        padding: 60px 50px;
+        
     }
     
 }
