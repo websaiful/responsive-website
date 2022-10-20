@@ -17,6 +17,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px 0px 50px;
+    position: sticky;
+    top: 0;
 }
 .logo{
     color: #fff;
@@ -70,25 +72,39 @@ header{
     nav ul{
         position: fixed;
         background-color: #303952;
-        top: 61px;
-        left: -100%;
+        top: 60px;
+        left: -250px;
         height: 100vh;
         flex-direction: column;
-        width: 100%;
+        width: 250px;
         text-align: center;
         /* padding-top: 20px; */
         transition: .5s ease;
        
     }
     nav ul li{
-        margin: 50px 0;
+       
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+        margin: 0 0px 10px 0 ;
+    }
+    nav ul li:first-child{
+        border-top: 1px solid #fff;
+        padding-top: 10px;
+        
+        
     }
     nav ul li a{
         font-size: 25px;
+        display: block;
+        
     }
     nav ul li a:hover{
         background: none;
         color: #c44569;
+    }
+    nav ul li a.active{
+        background: none;
     }
 }
 
