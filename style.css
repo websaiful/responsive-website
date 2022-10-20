@@ -67,7 +67,7 @@ header{
     #click:checked ~ ul{
         left: 0%;
     }
-    ul{
+    nav ul{
         position: fixed;
         background-color: #303952;
         top: 61px;
@@ -190,6 +190,10 @@ padding: 100px 0;
 .about-div h3{
     font-size: 35px;
     margin-bottom: 20px;
+}
+.about-div ul li{
+    list-style-type: circle;
+    list-style-position: inside;
 }
 .about-div p{
     font-size: 20px;
@@ -384,7 +388,75 @@ form p{
     letter-spacing: .2em;
     font-size: 25px;
 }
-
+/* seventh section code start here */
+#seventh-section{
+    padding: 80px 0;
+}
+.take-care-parent{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.take-care-child p{
+    margin: 30px 0;
+    font-size: 18px;
+}
+.take-care-child ul li{
+    list-style-type: square;
+    line-height: 40px;
+    list-style-position: inside;
+}
+.take-care-img{
+    width: 100%;
+}
+.take-care-img img{
+    width: 100%;
+}
+/* footer code start here */
+footer{
+    padding: 100px 0 50px 0;
+    background-color: rgb(1, 1, 54);
+}
+.footer-parent{
+     margin-left: 200px;
+     margin-right: 200px;
+     display: flex;
+     gap: 60px;
+     color: #fff;
+}
+.single-footer{
+    width: 100%;
+}
+.single-footer h5{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.single-footer span{
+    color: yellow;
+}
+.single-footre-1 p{
+   font-size: 20px;
+}
+.single-footer-2 p{
+    margin: 15px;
+}
+.single-footer-2 p a{
+ color: #fff;
+ font-size: 22px;
+}
+.single-footer-3 ul{
+      display: flex;
+}
+.single-footer-3 ul li{
+     margin: 0 10px;
+     font-size: 45px;
+}
+.single-footer-3 ul li a i{
+    font-size: 45px;
+}
 /* first section code responsive start here  */
 @media only screen and (max-width:688px){
     .service-parent{
@@ -442,6 +514,30 @@ form p{
         .single-match-separet{
             text-align: center;
         }
+        /* seventh section code start here */
+        .take-care-parent{
+            display: block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .take-care-child{
+            margin-bottom: 50px;
+        }
+        /* footer code start here */
+        .footer-parent{
+             display: block;
+             margin-left: 30px;
+             margin-right: 30px;
+        }
+        .single-footer{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .single-footer-3 ul {
+            display: flex;
+            justify-content: center;
+        }
+        
     
 }
 
@@ -498,5 +594,22 @@ form p{
         margin-left: 70px;
         margin-right: 70px;
     }
+    /* seventh section code start here */
+    .take-care-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .take-care-child{
+        margin-bottom: 50px;
+    }
+    /* footer code start here */
+    .footer-parent{
+        display: flex;
+        margin-left: 70px;
+        margin-right: 70px;
+        gap: 30px;
+   }
+   
     
 }
